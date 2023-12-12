@@ -16,6 +16,7 @@ class HomeActivity : AppCompatActivity() {
         mBinding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        //액티비티 이동
         binding.bt2Home.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
